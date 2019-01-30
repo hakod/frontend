@@ -1,3 +1,12 @@
+I created components for verticals, categories, and courses, passing down json data through props starting from the App component. From the App, each vertical list item is mapped, and given json data as props, then each category is mapped from the vertical component. State is managed inside each component to control opening/closing of children lists.
+
+    How does your solution perform?
+        Very quick DOM changes with each component containing individual state.
+    How does your solution scale?
+        As the JSON files grow, menus will automatically be added through mapping.
+    What would you improve next?
+        Adding animations and cleaning up styles.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
